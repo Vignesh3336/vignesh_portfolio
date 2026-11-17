@@ -1,6 +1,6 @@
-.Hero-side{position: relative;display:flex;flex-direction: column;gap:30px;}
+.Hero-side{position: relative;display:flex;flex-direction: column;gap:30px;width:100%;}
 .Hero-side{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/hero.jpg");
-           background-size: cover;background-position: center;border-radius:20px;padding-bottom:10px;}
+           background-size: cover;background-position: center;border-radius:0px;padding-bottom:10px;}
 
 .body-container{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:100px;}
 
@@ -525,5 +525,3 @@
 
 
 
-
-body{font-family:'calibri';} 

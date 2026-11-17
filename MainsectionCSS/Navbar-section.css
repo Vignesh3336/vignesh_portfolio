@@ -1,16 +1,16 @@
 .First-Menu-searching{display:flex;flex-direction: row;justify-content: space-between;align-items: center;
-                        }
+                        width:100%;}
 
 .First-Menu-searching{border: 0px solid white;
-                      background: linear-gradient(160deg,#172246,#808083,#0c0e18);padding:20px 37px;
-                      border-radius: 20px;box-sizing: border-box;}                      
+                      background:linear-gradient(360deg,#040c14,#446574,#020202);padding:20px 37px;
+                      border-radius: px;box-sizing: border-box;}                      
 
 
 
 
 .Logo-Heading17{display:flex;justify-content:center;flex-shrink: 0;}
 .name{display:flex;justify-content:center;margin:0;}
-.name{font-size:clamp(1.5rem,2.5vm,2.5rem);font-weight:600;color:rgb(194, 189, 189);}
+.name{font-size:clamp(1.5rem,2.5vw,2.5rem);font-weight:600;color:rgb(194, 189, 189);}
 
 
 
@@ -161,4 +161,3 @@ gap:clamp(10px,2vw,40px);flex-wrap:wrap;}
 .menu a{font-size: 0.85rem;}
 }
 
-body{font-family:'calibri';} 

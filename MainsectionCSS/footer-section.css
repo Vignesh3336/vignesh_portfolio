@@ -1,6 +1,6 @@
-.footer-section{display: flex;flex-direction: column;align-items: center;justify-content: center;gap:20px;}
-.footer-section{border: 1px rgba(255,255,255,0.17);background: linear-gradient(170deg,#0f0f16,#031433da,#000613);
-                 border-top: 2px solid rgba(255,255,255,0.77); border-radius:20px;padding: 20px 0px;}
+.footer-section{display: flex;flex-direction: column;align-items: center;justify-content: center;gap:20px;width:100%;}
+.footer-section{border: 0px rgba(255,255,255,0.17);background:linear-gradient(360deg,#020202,#446574,#111120);
+                 border-radius:0px;padding: 20px 0px;margin-top:0px;}
 
 
 
@@ -70,10 +70,10 @@
 
 .footer-opportunity{display:flex;flex-direction:row;justify-content:center;align-items:center;gap:12px;}
 .footer-opportunity span{width:12px;height:12px;border-radius:50%;background:green;}
-.footer-opportunity p{font-weight:600;font-size:clamp(0.9rem,1.2vm,1.1rem);color:white;text-shadow: 0 6px 6px rgba(0,0,0,0.18);
+.footer-opportunity p{font-weight:600;font-size:clamp(0.9rem,1.2vw,1.1rem);color:white;text-shadow: 0 6px 6px rgba(0,0,0,0.18);
                         letter-spacing: 0.8px;}         
                                  
-.footer-bottom-messages span{font-weight:600;font-size:clamp(1rem,1.2vm,1.1rem);color:white;text-shadow: 0 6px 6px rgba(0,0,0,0.18);
+.footer-bottom-messages span{font-weight:600;font-size:clamp(1rem,1.2vw,1.1rem);color:white;text-shadow: 0 6px 6px rgba(0,0,0,0.18);
                         letter-spacing: 0.5px;display:inline-block;}
 
 
@@ -313,4 +313,4 @@
 
 
 
-body{font-family:'calibri';}        
+      

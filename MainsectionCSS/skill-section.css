@@ -1,7 +1,7 @@
 .skill-side{display:flex;flex-direction: column;align-items:center;justify-content: center;
-              gap:30px;}
-.skill-side{border: 1px rgba(255,255,255,0.17);background:linear-gradient(135deg,#046e4b,#071f22,#095e61);
-               border-radius:20px;padding-top:40px;}
+              gap:30px;width:100%;}
+.skill-side{border: 1px rgba(255,255,255,0.17);background:linear-gradient(360deg,#111120,#446574,#161616);
+               border-radius:px;padding-top:40px;}
 
 
 .skill-top{display: flex;flex-direction: column;align-items: flex-start;justify-content: center;gap:10px;width:100%;
@@ -29,11 +29,11 @@
 
 
 
-.skill-body{display:flex;flex-direction: row;justify-content: center;align-items: center;gap:40px;}
+.skill-body{display:flex;flex-direction: row;justify-content: center;align-items: center;gap:40px;width:100%;}
 
 
 .skill-image-align{display: flex;justify-content: center;}
-.skill-image{min-height:500px;width:500px;display:block;}
+.skill-image{height:500px;width:500px;display:block;}
 
 
 
@@ -46,7 +46,7 @@
 .skill-personal-cards{border-radius:20px;backdrop-filter:blur(10px);box-shadow: 0 8px 20px rgba(0,0,0,4);transition: 0.4s ease;}
 
 
-.skill-left{display:flex;flex-direction:row;justify-content:center;align-items:center;gap:20px;width:300px;}
+.skill-left{display:flex;flex-direction:row;justify-content:center;align-items:center;gap:20px;width:px;}
 
 .skill-personal-icon{display:flex;justify-content: center;}
 .skill-personal-icon{width:40px;height:40px;display:block;}
@@ -64,7 +64,7 @@
 
                             
                             
-.skill-right{display:flex;flex-direction: row;justify-content:center;align-items:center;gap:10px;width:300px;}
+.skill-right{display:flex;flex-direction: row;justify-content:center;align-items:center;gap:10px;width:px;}
 
 .presentage{position:relative;display:flex;justify-content:center;min-width:200px;min-height:10px;border-color:grey;
             background:grey;border-radius:20px;display:inline-block;}
@@ -135,11 +135,7 @@
 
 
 @media (max-width: 1024px) {
-    .skill-top {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
+    
     .skill-body {
         gap: 20px;
     }
@@ -161,6 +157,11 @@
     .skill-bottom {
         flex-wrap: wrap;
         gap: 30px;
+    }
+
+    .skillheader-margin-left,
+    .skillheader-margin-right {
+        min-width: 200px;
     }
 }
 
@@ -232,6 +233,12 @@
         gap: 25px;
     }
 
+    .skillheader-margin-left,
+    .skillheader-margin-right {
+        min-width: 35px;
+    }
+
+
     .skill-bottom-card {
         justify-content: flex-start;
     }
@@ -253,4 +260,3 @@
 
 
 
-body{font-family:'calibri';} 

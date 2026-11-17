@@ -1,8 +1,7 @@
-.contact-section{display:flex;flex-direction: row;justify-content: center;align-items: center;gap: 100px;}
-.contact-section{border: 1px rgba(255,255,255,0.17);
-                  background:radial-gradient(circle,rgba(40,120,255,0.18),transparent 40%),
-                  linear-gradient(135deg,#050816,#101820,#1b2735);
-                  border-radius:20px;padding:40px 0px;}
+.contact-section{display:flex;flex-direction: row;justify-content: center;align-items: center;gap: 100px;width:100%;}
+.contact-section{border: 0px rgba(255,255,255,0.17);
+                  background:linear-gradient(360deg,#111120,#446574,#161616);
+                  border-radius:0px;padding:40px 0px;margin-bottom:0px;}
 
 
 
@@ -243,4 +242,3 @@
     }
 }
 
-body{font-family:'calibri';} 
